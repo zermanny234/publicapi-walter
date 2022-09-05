@@ -1,4 +1,4 @@
-
+g
 const populationCensus = async()=>{
     let fetchData = await fetch('https://datausa.io/api/data?drilldowns=Nation&measures=Population')
     let jsonfetchData = await fetchData.json()
